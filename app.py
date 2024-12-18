@@ -6,7 +6,7 @@ from PIL import Image
 import numpy as np
 
 # Path to the model file
-model_path = "/Users/cliq-tech/Desktop/AI waste management/runs/detect/waste_detection_x/weights/best.pt"
+model_path = "runs/detect/waste_detection_x/weights/best.pt"
 model = YOLO(model_path)
 
 # Assert the model path exists
